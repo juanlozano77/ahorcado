@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" href="main.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    </head>
+     
+    <body>
+        <header>
+      
+      <nav>
+        <ul>
+          <li><a href="index.html"> Nuevo </a></li>
+          <li><a href="index.html"> Contacto </a></li>
+          
+        </ul>
+      </nav>
+    </header>
+        
+<div id="openModalw" class="modalDialog">
+	<div>
+		<a href="index.html" title="Close" class="close">X</a>
+		<h2>Ganaste!!!</h2>
+		<p>La próxima vez te lo hago más díficl </p>
+		
+	</div>
+</div>
+<div id="openModall" class="modalDialog">
+	<div>
+		<a href="index.html" title="Close" class="close">X</a>
+		<h2>Lo siento esta vez perdiste</h2>
+		<p id="perdiste">La palabra era: </p>
+		
+	</div>
+</div>
+        <div id="container" height="900">
+        <section>
+               
+
+    <canvas id="hangman" width="180" height="250"></canvas>
+        <aside class="Texto"> Cual será la palabra?
+        </aside>
+        </section>    
+        <div class="teclado">
+        </div>
+         <script type="text/javascript" src="javascript.js"></script>
+        </div>    
+    </body>
+</html>
