@@ -112,12 +112,12 @@ grid-template-columns: repeat(10, 1fr);
   box-shadow: 2rem 3rem 4rem;
   backface-visibility: hidden;
   font-weight: bold;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   display:flex;
   align-items: center;
 
 }
-}
+
  
 .card-front{
  position: fixed;
