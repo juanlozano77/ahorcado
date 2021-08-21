@@ -113,8 +113,7 @@ grid-template-columns: repeat(10, 1fr);
   backface-visibility: hidden;
   font-weight: bold;
   font-size: 1.6rem;
-  display:flex;
-  align-items: center;
+  
 
 }
 
