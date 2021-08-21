@@ -52,7 +52,7 @@ aside{
     grid-row-gap: 0px;
     }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1200px) {
     .teclado{
 grid-template-columns: repeat(10, 1fr);
 }}
