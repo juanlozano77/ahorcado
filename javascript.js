@@ -20,7 +20,7 @@ let letras = 'ABCDEFGHIJKLMNÑOPQRSTUVWXYZ';
 
 
 
-palabras = 'hormiga babuino tejon murcielago oso castor camello gato almeja cobra pantera coyote cuervo ciervo perro burro pato aguila huron zorro rana cabra ganso halcon leon lagarto llama topo mono alce raton mula salamandra nutria buho panda loro paloma piton conejo carnero rata cuervo rinoceronte salmon foca tiburon oveja mofeta perezoso serpiente araña cigüeña cisne tigre sapo trucha pavo tortuga comadreja ballena lobo wombat cebra'.split(" ")
+palabras = 'hormiga babuino tejon murcielago oso castor camello gato almeja cobra pantera coyote cuervo ciervo perro burro pato aguila huron zorro rana cabra ganso halcon leon lagarto llama topo mono alce raton mula salamandra nutria buho panda loro paloma piton conejo carnero rata cuervo rinoceronte salmon foca tiburon oveja mofeta perezoso serpiente araña horoscopo cisne tigre sapo trucha pavo tortuga comadreja ballena lobo wombat cebra milagroso ñandu urucu'.split(" ")
 var letras_adivinadas=0
 var fallos=0
 aleatorio=Math.floor(Math.random() * (palabras.length + 1))
